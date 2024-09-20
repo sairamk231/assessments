@@ -14,16 +14,16 @@
 //     expect(app).toBeTruthy();
 //   });
 
-//   it(`should have the 'collection-info' title`, () => {
+//   it(`should have the 'bulk-collection-details' title`, () => {
 //     const fixture = TestBed.createComponent(AppComponent);
 //     const app = fixture.componentInstance;
-//     expect(app.title).toEqual('collection-info');
+//     expect(app.title).toEqual('bulk-collection-details');
 //   });
 
 //   it('should render title', () => {
 //     const fixture = TestBed.createComponent(AppComponent);
 //     fixture.detectChanges();
 //     const compiled = fixture.nativeElement as HTMLElement;
-//     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, collection-info');
+//     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, bulk-collection-details');
 //   });
 // });

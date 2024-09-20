@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "collection-info": {
+    "bulk-collection-details": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/collection-info",
+            "outputPath": "dist/bulk-collection-details",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -29,20 +29,15 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "prerender": true,
-            "ssr": {
-              "entry": "server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "4MB",
+                  "maximumError": "6MB"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -64,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "collection-info:build:production"
+              "buildTarget": "bulk-collection-details:build:production"
             },
             "development": {
-              "buildTarget": "collection-info:build:development"
+              "buildTarget": "bulk-collection-details:build:development"
             }
           },
           "defaultConfiguration": "development"
