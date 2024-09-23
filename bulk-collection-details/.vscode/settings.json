@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/f85b84c3-ad17-41a2-8f8b-bb1a52c2e354/resourceGroups/ag-trail_group/providers/Microsoft.Web/sites/ag-trail",
+    "appService.deploySubpath": "dist\\bulk-collection-details"
+}
